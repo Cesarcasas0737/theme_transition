@@ -1,0 +1,28 @@
+body{
+
+}
+
+header{
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1px;
+    border: solid;
+    border-color: red;
+}
+aside{
+    border: 1px;
+    border: solid;
+    border-color: green;
+}
+.nav-article-contain{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border: solid;
+    border-color: blue;
+}
