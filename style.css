@@ -32,14 +32,10 @@ header{
     display: flex;
     flex-direction: row;
     padding: 5px;
-    border: 1px;
-    border: solid;
-    border-color: red;
+    outline: var(--border-btn);
 }
 aside{
-    border: 1px;
-    border: solid;
-    border-color: green;
+    outline: var(--border-btn);
 }
 nav{
     display: flex;
@@ -48,9 +44,7 @@ nav{
 .nav-article-contain{
     display: flex;
     flex-direction: column;
-    border: 1px;
-    border: solid;
-    border-color: blue;
+    outline: var(--border-btn);
 }
 
 .theme-toggle:hover {
